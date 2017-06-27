@@ -1,1 +1,8 @@
-
+body {
+    font-family: 'Planatino', 'Georgia', Garamond, Verdana, Courier;
+    overflow-x: hidden;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: black;
+    background-color: #D1C8E1;
+}
