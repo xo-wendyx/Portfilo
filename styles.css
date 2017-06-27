@@ -6,3 +6,10 @@ body {
     color: black;
     background-color: #D1C8E1;
 }
+p {
+    font-size: 20px;
+}
+strong {
+    font-weight: 700;
+    color: #700548;
+}
