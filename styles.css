@@ -84,6 +84,58 @@ hr.cogs-dark:after {
     color: #FC3A51; <!-- change color code here -->
 }
 
+header {
+    text-align: center; 
+    background: #CEBEA5; <!-- CHANGES BACKGROUND FOR HEADER -->
+    color: white; <!-- font for header change color -->
+}
+
+header .container {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+header img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+header .intro-text .name {
+    display: block;
+    font-family: "Playfair Display", Georgia, "Palatino Linotype", serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+header .intro-text .subtext {
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+@media (min-width: 768px) {
+    header .container {
+        padding-top: 200px;
+        padding-bottom: 100px;
+    }
+    <!-- just in case it doesnt work, just space back -->
+    header .intro-text .name {
+        font-size: 4.75em;
+    }
+     <!-- just in case it doesnt work, just space back -->
+    header .intro-text .subtext {
+        font-family: "Playfair Display", Georgia, "Palatino Linotype
+    
+    
+    
+
+
+    
+
+
+
+    
+    
 
 
 
