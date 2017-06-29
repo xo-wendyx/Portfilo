@@ -6,10 +6,67 @@ body {
     color: black;
     background-color: #D1C8E1;
 }
+
 p {
     font-size: 20px;
 }
+
 strong {
     font-weight: 700;
     color: #700548;
 }
+
+p { 
+    font-size: 20px;
+}
+
+strong {
+    font-weight: 700;
+    color: #700548;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color: #FFFFFF;
+    background-color: #7272AB;
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Playfair Display", Georgia, "Palatino Linotype", serif;
+    font-weight: 700;
+}
+
+hr.cogs-ligh
+hr.cogs-dark { 
+    padding: 0;
+    border: none;
+    border-top: solid 2px;
+    text-align: center;
+    max-width: 250px;
+    margin: 25px auto 30px;
+}
+
+hr.cogs-light:after,
+hr.cogs-dark:after {
+    content: "\f085";
+    font-family: FontAwesome;
+    display: inline-block;
+    position: relative;
+    top: -0.8em;
+    font-size: 2em;
+    padding: 0 0.25em;
+}
+
+
+    
+
+
