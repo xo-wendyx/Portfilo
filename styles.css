@@ -58,13 +58,38 @@ hr.cogs-dark {
 hr.cogs-light:after,
 hr.cogs-dark:after {
     content: "\f085";
-    font-family: FontAwesome;
+    font-family: FontAwesome; 
     display: inline-block;
     position: relative;
     top: -0.8em;
     font-size: 2em;
     padding: 0 0.25em;
 }
+
+hr.cogs-light {
+    border-color: white; <!-- add hex code ?-->
+}
+
+hr.cogs-light:after {
+    background-color:  #CEBEA5; <!-- Change color code here -->
+    color: white;
+}
+
+hr.cogs-dark {
+    border-color: #FC3A51; <!--change color code here -->
+}
+
+hr.cogs-dark:after {
+    background-color: #E8D5B7; <!--Change color code here --> 
+    color: #FC3A51; <!-- change color code here -->
+}
+
+
+
+
+
+
+
 
 
     
