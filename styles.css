@@ -348,7 +348,140 @@ form .row:first-child .floating-label-form-group {
 footer {
     color: white;
 }
-<!-- line 346 -->
+
+footer .footer-below {
+    padding: 15px 0;
+    background-color: #FC3A51; <!--color code for bottom section -->
+}
+
+.btn-outline { 
+    color: white;
+    font-size: 20px;
+    border: solid 2px white;
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+    margin-top: 15px;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+    color: #CEBEA5; <!-- COLOR CODE FOR hover -->
+    background: white;
+    border: solid 2px white;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #FC3A51;
+    border-color: #FC3A51;
+    font-weight: 700;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    color: white;
+    background-color: #1a242f;
+    border-color: #161f29;
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    background-image: none;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+    background-color: #FC3A51;
+    border-color: #FC3A51;
+}
+
+.btn-primary .badge {
+    color: #FC3A51;
+    background-color: white;
+}
+
+.btn-success {
+    color: white;
+    background-color: #CEBEA5;
+    border-color: #CEBEA5;
+    font-weight: 700;
+}
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active,
+.open .dropdown-toggle.btn-success {
+    color: white;
+    background-color: #F5B349;
+    border-color: #f3a629;
+}
+
+.btn-success:active,
+.btn-success.active,
+.open .dropdown-toggle.btn-success {
+    background-image: none;
+}
+
+.btn-success.disabled,
+.btn-success[disabled],
+fieldset[disabled] .btn-success,
+.btn-success.disabled:hover,
+.btn-success[disabled]:hover,
+fieldset[disabled] .btn-success:hover,
+.btn-success.disabled:focus,
+.btn-success[disabled]:focus,
+fieldset[disabled] .btn-success:focus,
+.btn-success.disabled:active,
+.btn-success[disabled]:active,
+fieldset[disabled] .btn-success:active,
+.btn-success.disabled.active,
+.btn-success[disabled].active,
+fieldset[disabled] .btn-success.active {
+    background-color: #CEBEA5;
+    border-color: #CEBEA5;
+}
+
+.btn-success .badge {
+    color: #CEBEA5;
+    background-color: white;
+}
+
+.btn-social {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    text-align: right;
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active {
+    outline: none;
+}
+
 
 
     
