@@ -6,8 +6,10 @@ html {
 body {
 	font-family: 'Fauna One', serif;
 	font-size: 20px;
-	padding: 150px;
-	margin: 150px;
+	padding-top: 50px;
+        padding-right: 30px;
+        padding-bottom: 50px;
+        padding-left: 80px;
 }
 
 li {
