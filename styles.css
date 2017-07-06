@@ -1,6 +1,6 @@
 html {
-	padding: 30px;
-	margin: 30px;
+	padding: 10px;
+	margin: 10px;
 }
 
 body {
@@ -13,7 +13,7 @@ li {
 }
 
 a {
-	color: white;
+	color: green;
 }
 
 a:hover, a:focus {
